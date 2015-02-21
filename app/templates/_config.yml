@@ -1,0 +1,17 @@
+source: ./app/pages
+destination: ./.jekyll
+include: ["robots.txt", ".htaccess"]
+timezone: America/New_York
+defaults:
+  -
+    scope:
+      path: ""
+      type: "page"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"

@@ -1,0 +1,37 @@
+{
+  "name": "generator-will",
+  "version": "0.1.0",
+  "description": "A personal take on the webapp generator using gulp.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "wrseward/generator-will",
+  "author": {
+    "name": "William Seward",
+    "email": "wrseward@gmail.com",
+    "url": "https://github.com/wrseward"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "will",
+    "gulp",
+    "sass",
+    "web"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.0",
+    "chalk": "^0.5.0",
+    "yosay": "^1.0.0",
+    "wiredep": "^1.4.3"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0",
+    "gulp": ">=3.5.0"
+  },
+  "private": false
+}
