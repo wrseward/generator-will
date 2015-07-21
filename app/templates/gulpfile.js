@@ -5,7 +5,7 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync');
 <% if (includeJekyll) { %>var cp = require('child_process');<% } %>
 var $ = require('gulp-load-plugins')();
-<% if (includeSprites) { %>var spritesmith = require('spritesmith');<% } %>
+<% if (includeSprites) { %>var spritesmith = require('gulp.spritesmith');<% } %>
 
 gulp.task('styles', function () {
   return gulp.src('app/styles/main.scss')
