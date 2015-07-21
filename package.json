@@ -1,6 +1,6 @@
 {
   "name": "generator-will",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A personal take on the webapp generator using gulp.",
   "license": "MIT",
   "main": "app/index.js",
